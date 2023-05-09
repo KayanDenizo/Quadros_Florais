@@ -1,0 +1,92 @@
+* {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: lighter;
+}
+
+body {
+  margin: 0;
+}
+
+
+.header {
+  width: 100%;
+  background: #212529;
+  color: #fbfbfb;
+}
+
+
+nav{
+  margin-left: 9em;
+  display: inline-block;
+  padding: 15px;
+  font-size: 20px;
+}
+
+nav>a:nth-child(4){
+  color: #646d75;
+}
+
+nav>a:nth-child(4):hover{
+  color: #646d75;
+}
+
+nav>a{
+  font-weight: 50;
+  font-style: normal;
+  color: #fbfbfb;
+  text-decoration: none;
+  margin: 4px;
+}
+
+nav>a:hover{
+  color: #dbdbdb;
+  transition: 0.1s;
+  text-decoration: none;
+}
+
+.inbox{
+  color: white;
+  background: #212529;
+  border-radius: 7px;
+  padding: 10px;
+  border: #646d75 solid 1px;
+  margin-left: 10em;
+}
+
+.inbox:focus{
+  transition: 0.5s;
+  box-shadow: 0 0 6px 6px #646d75;
+}
+
+.login {
+  margin-left: 10px;
+  font-size: 18px;
+  background-color: #212529;
+  color: #fbfbfb;
+  border: #fbfbfb solid 1px;
+  border-radius: 5px;
+  padding: 7px;
+}
+
+.login:hover{
+  cursor: pointer;
+  color: black;
+  background: #fbfbfb;
+  transition: 0.2s;
+}
+
+.sign-up{
+  margin-left: 10px;
+  font-size: 18px;
+  background-color: #ffc107;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+.sign-up:hover{
+cursor: pointer;
+transition: 0.2s;
+background: #ffd34e;
+}
